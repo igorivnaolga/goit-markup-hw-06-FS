@@ -517,6 +517,7 @@ body {
 .footer-social-list {
   display: flex;
   gap: 16px;
+  margin-right: 80px;
 }
 .footer-social-list-item {
   width: 40px;
@@ -539,6 +540,56 @@ body {
 .footer-social-list-icon {
   fill: var(--icon-fill-color);
 }
+
+.subscribe-form {
+  display: flex;
+}
+
+.subscribe-form-email {
+  height: 40px;
+  margin-right: 24px;
+  padding-left: 16px;
+  border: 1px solid #ffffff;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  border-radius: 4px;
+  background-color: var(--secondary-color);
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+}
+.subscribe-form-email::placeholder {
+  color: #ffffff;
+}
+
+.subscribe-form-button {
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 8px 24px;
+  gap: 16px;
+  height: 40px;
+  background: #4d5ae5;
+  border-radius: 4px;
+  color: #ffffff;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  transition: background-color var(--transition-dur-func);
+}
+.subscribe-form-button:hover,
+.subscribe-form-button:focus {
+  background-color: #404bbf;
+}
+.subscribe-form-icon {
+  fill: #ffffff;
+}
+
 .backdrop {
   position: fixed;
   top: 0;
