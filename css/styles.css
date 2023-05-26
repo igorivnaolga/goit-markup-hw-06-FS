@@ -714,6 +714,16 @@ body {
 .modal-form-input-wrapper {
   display: block;
   position: relative;
+  margin-bottom: 8px;
+}
+.modal-form-field {
+  display: block;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.04em;
+  color: #8e8f99;
+  margin-bottom: 4px;
 }
 .modal-form-input-icon {
   position: absolute;
@@ -743,12 +753,15 @@ body {
   outline: none;
   border-color: #4d5ae5;
 }
+.modal-form-checkbox-wrapper {
+  margin-bottom: 24px;
+}
 .modal-form-check-desc {
   display: flex;
   text-align: center;
   font-weight: 400;
   font-size: 12px;
-  line-height: 1.2;
+  line-height: 1.17;
   letter-spacing: 0.04em;
   color: #8e8f99;
   margin-bottom: 24px;
@@ -764,22 +777,26 @@ body {
   cursor: pointer;
   width: 16px;
   height: 16px;
-  border: 1px solid rgba(46, 47, 66, 0.4);
+  border: 1px solid #2e2f42;
+  display: inline-flex;
+  fill: transparent;
   border-radius: 2px;
   margin-right: 8px;
 }
 .modal-form-fake-checkbox-icon {
   opacity: 0;
-  fill: #f4f4fd;
 }
 .modal-form-check:checked + .modal-form-check-desc .modal-form-fake-checkbox {
   background-color: #404bbf;
+  border: none;
+  border-color: #404bbf;
 }
 
 .modal-form-check:checked
   + .modal-form-check-desc
   .modal-form-fake-checkbox-icon {
   opacity: 1;
+  fill: #ffffff;
 }
 
 .modal-form-submit {
