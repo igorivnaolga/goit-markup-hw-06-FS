@@ -337,24 +337,29 @@
             </li>
           </ul>
         </div>
-        <form class="subscribe-form">
-          <span class="subscribe-form-email-wrapper">
-            <p class="social-media-header">Subscribe</p>
-            <input
-              type="email"
-              class="subscribe-form-email"
-              name="subscribe-user-email"
-              placeholder="E-mail"
-            />
-          </span>
+        <div class="subscribe-form-container">
+          <p class="social-media-header">Subscribe</p>
+          <form class="subscribe-form">
+            <label
+              for="subscribe-user-email"
+              class="subscribe-user-email-label"
+            >
+              <input
+                type="email"
+                class="subscribe-form-email"
+                name="subscribe-user-email"
+                placeholder="E-mail"
+              />
+            </label>
 
-          <button type="submit" class="subscribe-form-button">
-            Subscribe
-            <svg class="subscribe-form-icon" width="24" height="24">
-              <use href="./images/icons.svg#icon-send"></use>
-            </svg>
-          </button>
-        </form>
+            <button type="submit" class="subscribe-form-button">
+              Subscribe
+              <svg class="subscribe-form-icon" width="24" height="24">
+                <use href="./images/icons.svg#icon-send"></use>
+              </svg>
+            </button>
+          </form>
+        </div>
       </div>
     </footer>
   </body>
