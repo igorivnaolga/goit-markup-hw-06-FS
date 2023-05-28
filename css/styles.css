@@ -540,7 +540,7 @@ body {
   fill: var(--icon-fill-color);
 }
 .subscribe-form-container {
-  display: flex;
+  margin-left: auto;
 }
 .subscribe-form {
   display: flex;
@@ -573,15 +573,12 @@ body {
   align-items: center;
   letter-spacing: 0.04em;
   color: #ffffff;
-  margin-top: 40px;
-  margin-right: 24px;
 }
 .subscribe-form-email::placeholder {
   color: #ffffff;
 }
 
 .subscribe-form-button {
-  margin-top: 40px;
   font-family: 'Roboto', sans-serif;
   cursor: pointer;
   border: none;
@@ -772,7 +769,6 @@ body {
   margin-bottom: 24px;
 }
 .modal-form-check-desc {
-  display: flex;
   text-align: center;
   font-weight: 400;
   font-size: 12px;
